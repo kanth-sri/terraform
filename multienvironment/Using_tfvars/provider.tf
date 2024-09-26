@@ -6,6 +6,6 @@ terraform {
     }
   }
   backend "s3" {
-    
+    #backend configuration is passed based on environment (dev,prod)
   }
 }
